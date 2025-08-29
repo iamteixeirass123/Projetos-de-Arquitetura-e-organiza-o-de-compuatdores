@@ -1,0 +1,23 @@
+# Simulação simples de um computador em Python
+
+# ----- Unidade de Entrada -----
+# Usuário digita dois números
+entrada1 = int(input("Digite o primeiro número: "))
+entrada2 = int(input("Digite o segundo número: "))
+
+# ----- Unidade de Processamento (CPU) -----
+# CPU faz operações com os dados de entrada
+soma = entrada1 + entrada2
+produto = entrada1 * entrada2
+
+# ----- Unidade de Armazenamento -----
+# Vamos guardar os resultados em uma "memória" (dicionário)
+memoria = {
+    "soma": soma,
+    "produto": produto
+}
+
+# ----- Unidade de Saída -----
+print("\n=== Resultados ===")
+print(f"Soma: {memoria['soma']}")
+print(f"Produto: {memoria['produto']}")
